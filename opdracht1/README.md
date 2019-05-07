@@ -3,7 +3,7 @@
 [Demo 1 voor opdracht 1](https://sifuo5.github.io/frontendvoordesigners/opdracht1/v1/)
 
 
-[Code demo 1 voor opdracht 1](frontendvoordesigners/opdracht1/v1/script.js)
+[Code demo 1 voor opdracht 1](frontendvoordesigners/frontendvoordesigners/opdracht1/v1/script.js)
 
 
 
