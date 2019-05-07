@@ -1,4 +1,4 @@
-# frontend voor designers - opdracht 1
+# Frontend voor designers - opdracht 1
 
 [Demo 1 voor opdracht 1](https://sifuo5.github.io/frontendvoordesigners/opdracht1/v1/)
 
