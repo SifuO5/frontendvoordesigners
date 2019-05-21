@@ -1,0 +1,70 @@
+body {
+    background-color: #F2F2F2;
+}
+
+main {
+    margin: 5vh auto;
+    width: 70vw;
+    height: 40vh;
+}
+
+
+p,
+a,
+h1,
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform .2s;
+    transform: scale(0.3);
+    cursor: pointer;
+
+    -webkit-box-shadow: 9px 11px 29px 1px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 9px 11px 29px 1px rgba(0, 0, 0, 0.22);
+    box-shadow: 9px 11px 29px 1px rgba(0, 0, 0, 0.22);
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+.zichtbaar {
+    opacity: 1;
+
+}
+
+
+.text {
+    color: #6D6D6D;
+    font-size: 20px;
+    margin-top: -200px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1em;
+    font-weight: 100;
+
+}
+
+.expand {
+    transform: scale(1);
+}
