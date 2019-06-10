@@ -1,0 +1,56 @@
+body {
+    background-color: #000;
+    color: aliceblue;
+}
+
+
+h1,
+h2,
+p {
+    font-family: 'helvetica neue', sans-serif;
+    text-align: left;
+}
+
+h1 {
+    font-size: 5rem
+
+}
+a {
+    font-family: 'helvetica neue', sans-serif;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+    background-color: orangered;
+    color: #FFF;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+a:visited {
+    color: #FFF;
+}
+
+a:hover {
+    transform: scale(2.5);
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    margin-left: 8rem;
+    margin-bottom: 10em;
+}
+
+footer {
+    background-color: orangered;
+    height: 8em;
+    width: 100%;
+    color: #fff;
+}
+
+footer p {
+    margin-left: 8em;
+    padding-top: 2em;
+}

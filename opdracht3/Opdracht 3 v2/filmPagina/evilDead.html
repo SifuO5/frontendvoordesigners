@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Evil Dead</title>
+    <link rel="stylesheet" href="styleMovie.css">
+</head>
+
+<body class="body">
+
+    <main>
+
+
+        <div class="overlay">
+            <p class="text">Press E to toggle cinema mode</p>
+        </div>
+
+
+
+        <section>
+            <!--Films ingeladen door .json-->
+        </section>
+
+        <h3>Watch the trailer:</h3>
+        <video class='video' width="320" height="240" controls>
+            <source src="evilDeadTrailer.mp4" type="video/mp4">
+        </video>
+
+        <div id="likeDiv">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path class="heartIconSVG" d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z" /></svg>
+            <!--Bron svg: https://iconmonstr.com/favorite-1-svg/-->
+
+            <p id="likeTekst">Press L to favorite this movie</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p> © The View Cinema - All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

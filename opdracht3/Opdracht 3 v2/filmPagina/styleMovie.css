@@ -1,0 +1,202 @@
+body {
+        background-color: #000;
+    color: aliceblue;
+}
+
+
+h1,
+h2,
+h3,
+p {
+    font-family: 'helvetica neue', sans-serif;
+    text-align: left;
+}
+
+h1 {
+    font-size: 5rem;
+
+    margin-left: 5rem;
+}
+
+h2 {
+    font-weight: 900;
+    margin-bottom: -10px;
+    width: 70vw;
+    font-size: 1em;
+    margin-left: 5rem;
+}
+
+h3 {
+    margin-top: 3em;
+}
+p {
+    font-weight: 100;
+    font-family: 'Arial', sans-serif;
+    margin-left: 5rem;
+    width: 50%;
+}
+
+a {
+    font-family: 'helvetica neue', sans-serif;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+    background-color: orangered;
+    color: #FFF;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    transform: scale(2.5);
+}
+
+main {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+section {
+    display: flex;
+}
+
+article div {
+    display: inline-table;
+
+}
+
+img {
+    width: 20vw;
+    border-radius: 5px;
+    margin-top: 4em;
+}
+
+footer {
+    background-color: orangered;
+    height: 8em;
+    width: 100%;
+    color: #fff;
+}
+
+footer p {
+    margin-left: 8em;
+    padding-top: 2em;
+}
+
+
+
+/*-----Video trailer*/
+
+
+.video {
+    margin: 2em 0 2em 0;
+    display: block;
+    height: auto;
+    transition: transform .2s;
+    width: 40vw;
+    cursor: pointer;
+    transform-origin: left;
+    -webkit-box-shadow: 9px 11px 29px 1px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 9px 11px 29px 1px rgba(0, 0, 0, 0.22);
+    box-shadow: 9px 11px 29px 1px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+    border: 1px;
+    border-color: aliceblue;
+    border-style: solid;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    margin-top: 15px;
+
+}
+
+.overlay p {
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    width: 10em;
+    border-radius: 5px;
+}
+
+.zichtbaar {
+    opacity: 1;
+}
+
+.text {
+    color: #6D6D6D;
+    font-size: 20px;
+    margin-top: -200px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.expand {
+    transform: scale(2.05);
+    background-color: aqua;
+    transition: 1s ease;
+}
+
+.darkMode {
+    background-color: #000;
+    transition: 1s ease;
+}
+
+
+.darkModeSectie {
+    opacity: 0;
+    transition: 1s ease;
+}
+
+/*--- Like icon*/
+
+.red {
+    height: 100px;
+    fill: #FF3B4A;
+    transition: 0.5s ease;
+}
+
+svg {
+    cursor: pointer;
+    fill: lightgray;
+    width: 30px;
+    margin: 10px;
+}
+
+#likeTekst {
+    color: lightgray;
+    font-size: 20px;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+#likeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: lightgray;
+    padding-top: 3em;
+}
+
+#likeDiv p {
+    margin: 0;
+    width: 13em;
+}
