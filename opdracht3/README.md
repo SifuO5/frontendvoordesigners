@@ -20,14 +20,14 @@ Wanneer er op een film geklikt wordt, opend de detailpagina van de film. Hier wo
 
 ## Hoe het werkt
 
-# navigeren
+### navigeren
 De gebruiker kan op sommige elementen klikken om te navigeren door de site. Bijvoorbeeld de afbeeldingen op de overzichtspagina. Dit is gedaan met een eventlistener: 
 
 document.getElementById("sectie").addEventListener("click", function () {
     window.location.href = "../filmPagina/evilDead.html";
 });
 
-# data ophalen uit .json en weergeven in de pagia
+### data ophalen uit .json en weergeven in de pagia
 1. Als eerste wordt de URL van de .json gedefinieerd.
 2. Er word een request gedaan. Daar volgt een response uit. Dit is de .json data.
 3. Een functie wordt aangeroepen, jsonobject wordt meegeven als argument.
