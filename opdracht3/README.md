@@ -47,6 +47,8 @@ document.getElementById("sectie").addEventListener("click", function () {
 
 Voor meer details over elke funcionaliteit raad ik aan een kijkje te nemen in mijn javascript bestanden. Daar leg ik uit wat de code precies doet.
 
+De .json word opgehaald van (https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json)
+
 
 
 ## UI events / bediening
@@ -59,6 +61,7 @@ De pagina kan bediend worden door te scrollen.
 Door op de play-knop te drukken wordt deze afgespeeld. Wanneer de gebruiker met de curser over de trailer gaat verschijnt er boven in beeld een tekstje: 'Press E to toggle cinema mode'. Wanneer er op E gedrukt wordt, word de trailer groter en verdwijnt de overige informatie tijdelijk totdat er weer op E gedrukt wordt. Dit alles gebeurd met een soepele animatie. 
 
 De film kan aan favorieten toegevoegd worden door op het hartje onderaan de pagina te drukken. Dit kan ook door op 'L' te drukken. 
+
 
 
 ## UI stack
@@ -74,6 +77,7 @@ Als de bioscoop nieuwe films toevoegd is het handig als dit gebeurd in de .json.
 Wanneer de gebruiker de website voor het eerst gebruikt zullen functionaliteiten zoals 'cinema mode' niet meteen duidelijk zijn. Om onboarding makklijker te maken geef ik de gebruiker tips over hoe de site makkelijk te bedienen is. In dit geval is dat een kleine tekst die vreteld dat er op 'E' gedrukt kan worden voor een andere weergave van de trailer op de filmpagina.
 
 
+
 ## design principles
 
 ### Keep users in control
@@ -85,44 +89,6 @@ De knop op de homepagina is vormgegeven als een knop. Ook de tekst 'See what's p
 
 ### Strong visual hierarchies work best
 De pagina's zijn zo ingedeeld dat belangrijke informatie prominenter in beeld staan dan minder belangrijke informatie.
+De titel is op elke pagina groot en staat bovenaan de pagina. Zo weet de gebruiker altijd waar hij/zij is. 
+Op de overzichtspagina heb ik gezorgd dat de gebruiker informatie in deze volgorde leest: Paginatitel > afbeelding > filmtitel > plot > release date > genre.
 
------
-
-
-Kun je een Readme schrijven waarin je uitlegt wat je met de side kan doen, hoe je dit met dier pagina’s hebt opgelost, hoe het technisch werkt en de rest van de criteria die horen bij de oplevering? (dit kun je vinden in het archief op Moodle)
-
-Criterea: 
-
-De uitwerking van je ontwerp moet het doen in een browser en device naar keuze.
-De data wordt van een externe bron ingeladen met Javascript
-In de demo maak je gebruik van meerdere verschillende UI events zodat gebruikers je ontwerp op verschillende manieren kunnen bedienen.
-Verschillende states van de UI stack worden opgevangen en zijn vormgegeven.
-In de demo dien je rekening te houden met de interface design principles 04, 09 en 11 van Principles of User Interface Design.
-Je ontwerp is aantoonbaar getest en verbeterd. Verslaglegging en resultaat publiceren op Github
-
-
-
------
-
-
-
-
-# beschrijvgin van Koop
-
-# frontend voor designers - opdracht 3
-
-Voor opdracht 3 ga je een functionaliteit ontwerpen met externe data, en testen. De data is JSON die met een REST API van een externe bron wordt ingeladen met Javascript. Als de data geladen is moeten gebruikers je ontwerp op verschillende manieren kunnen bedienen. Verschillende states zijn vormgeven en worden op het juiste moment getoond.
-
-Dit is een voorbeeld van het laden van data en er html mee maken:
-[Code demo](https://koopreynders.github.io/frontendvoordesigners/opdracht3/XMLHttpRequest/)
-
-
-## JSON
-JSON van de movies data staat ook hier:
-deze uri kun je gebruiken voor een van de use case voor opdracht 3.
-[https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json](https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json)
-
-De JSON data is ook los, per film of genre of actors te gebruiken. Check die [hier](https://github.com/KoopReynders/frontendvoordesigners/tree/master/opdracht3/json).
-
-Dit is een voorbeeld van het laden van de film data:
-[Code demo](https://koopreynders.github.io/frontendvoordesigners/opdracht3/v1/)
