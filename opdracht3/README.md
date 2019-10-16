@@ -29,17 +29,20 @@ document.getElementById("sectie").addEventListener("click", function () {
 
 ### data ophalen uit .json en weergeven in de pagia
 
-1. Als eerste wordt de URL van de .json gedefinieerd.
-2. Er word een request gedaan. Daar volgt een response uit. Dit is de .json data.
-3. Een functie wordt aangeroepen, jsonobject wordt meegeven als argument.
-4. D.m.v. een loop krijgt elke film op de overzichtspagina:
-
-
-
-5. HTML elementen worden aagemaakt met document.createElement
-6. .json data wordt gekoppeld aan html elementen. Bijv: myGenres.textContent = movies[i].genres;
-7. Append de html elementen aan het article element.
-8. append het article aan de section die al bestaat in je html
+1 Als eerste wordt de URL van de .json gedefinieerd.
+2 Er word een request gedaan. Daar volgt een response uit. Dit is de .json data.
+3 Een functie wordt aangeroepen, jsonobject wordt meegeven als argument.
+4 D.m.v. een loop krijgt elke film op de overzichtspagina:
+  een <article> voor de img + informatie
+  een <div> voor de informatie
+  een <h2> voor de title
+  een <p> voor de tekst
+  een <img> voor de cover
+  een <p> voor de release date
+5 HTML elementen worden aagemaakt met document.createElement
+6 .json data wordt gekoppeld aan html elementen. Bijv: myGenres.textContent = movies[i].genres;
+7 Append de html elementen aan het article element.
+8 append het article aan de section die al bestaat in je html
 
 
 Voor meer details over elke funcionaliteit raad ik aan een kijkje te nemen in mijn javascript bestanden. Daar leg ik uit wat de code precies doet.
