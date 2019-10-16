@@ -86,7 +86,7 @@ Wanneer de gebruiker de website voor het eerst gebruikt zullen functionaliteiten
 
 
 
-## design principles
+## Design principles
 
 ### Keep users in control
 Gebruikers kunnen de website naar eigen wens navigeren. De gebruiker kan altijd terug naar de vorige painga. Funcitonaliteiten worden uitgelegd en kunnen bediend worden op meerdere manieren (klikken met de muis of drukken op een knop van het toetsenbord).
