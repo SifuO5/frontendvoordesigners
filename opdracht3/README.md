@@ -37,9 +37,9 @@ document.getElementById("sectie").addEventListener("click", function () {
 
 4 D.m.v. een loop krijgt elke film op de overzichtspagina:
 
-  een article voor de img + informatie
-  een div voor de informatie
-  een h2 voor de title
+  een article voor de img + informatie <br>
+  een div voor de informatie <br>
+  een h2 voor de title <br>
   een p voor de tekst
   een img voor de cover
   een p voor de release date
