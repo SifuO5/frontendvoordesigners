@@ -32,7 +32,6 @@ document.getElementById("sectie").addEventListener("click", function () {
 2. Er word een request gedaan. Daar volgt een response uit. Dit is de .json data.
 3. Een functie wordt aangeroepen, jsonobject wordt meegeven als argument.
 4. D.m.v. een loop krijgt elke film op de overzichtspagina:
-
   een <article> voor de img + informatie
   een <div> voor de informatie
   een <h2> voor de title
@@ -48,7 +47,7 @@ document.getElementById("sectie").addEventListener("click", function () {
 
 Voor meer details over elke funcionaliteit raad ik aan een kijkje te nemen in mijn javascript bestanden. Daar leg ik uit wat de code precies doet.
 
-De .json word opgehaald van (https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json)
+De .json word opgehaald van 
 
 
 
