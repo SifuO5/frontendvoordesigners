@@ -32,6 +32,7 @@ document.getElementById("sectie").addEventListener("click", function () {
 2. Er word een request gedaan. Daar volgt een response uit. Dit is de .json data.
 3. Een functie wordt aangeroepen, jsonobject wordt meegeven als argument.
 4. D.m.v. een loop krijgt elke film op de overzichtspagina:
+
   een <article> voor de img + informatie
   een <div> voor de informatie
   een <h2> voor de title
