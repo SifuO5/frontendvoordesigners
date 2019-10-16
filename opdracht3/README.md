@@ -40,9 +40,9 @@ document.getElementById("sectie").addEventListener("click", function () {
   een article voor de img + informatie <br>
   een div voor de informatie <br>
   een h2 voor de title <br>
-  een p voor de tekst
-  een img voor de cover
-  een p voor de release date
+  een p voor de tekst <br>
+  een img voor de cover <br>
+  een p voor de release date <br>
     
 5 HTML elementen worden aagemaakt met document.createElement
 
