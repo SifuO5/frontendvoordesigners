@@ -1,9 +1,9 @@
 # Wat kan je doen met de site
 
-## Homepagina:
+#### Homepagina:
 Dit is de plek waar de meeste gebruikers binnen zounden komen. Vanaf hier kan er genavigeerd worden door de rest van de website. Door op de knop 'see what's playing tonight' te drukken, wordt de gebruiker doorgestuurd naar een overzicht van films die te zien zijn. Voordat deze films getoond worden ziet de gebruiker een laadscherm. 
 
-## Overzichtspagina:
+### Overzichtspagina:
 Hier ziet de gebruiker een aantal films. Iedere film heeft een afbeelding, titel, korte beschrijving, release date en genre. Deze gegevens worden opgehaald uit een .json bestand via javascript.
 De gebruiker kan horizontaal scrollen om alle films te zien. Dit heb ik gedaan met css: [overflow-x: scroll;].
 
