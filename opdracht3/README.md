@@ -13,41 +13,49 @@ Dit is de plek waar de meeste gebruikers binnen zounden komen. Vanaf hier kan er
 Hier ziet de gebruiker een aantal films. Iedere film heeft een afbeelding, titel, korte beschrijving, release date en genre. Deze gegevens worden opgehaald uit een .json bestand via javascript.
 De gebruiker kan horizontaal scrollen om alle films te zien. Dit heb ik gedaan met css: [overflow-x: scroll;].
 
-### filmpagina
+### Filmpagina
 Wanneer er op een film geklikt wordt, opend de detailpagina van de film. Hier word extra informatie weergegeven. Er is nu een langere beschrijving te zien over het plot van de film. Verder kan er nu ook een trailer bekeken worden. Door op de play-knop te drukken wordt deze afgespeeld. Wanneer de gebruiker met de curser over de trailer gaat verschijnt er boven in beeld een tekstje: 'Press E to toggle cinema mode'. Wanneer er op E gedrukt wordt, word de trailer groter en verdwijnt de overige informatie tijdelijk totdat er weer op E gedrukt wordt. Dit alles gebeurd met een soepele animatie. 
 
 
 
 ## Hoe het werkt
 
-### navigeren
+### Navigeren
 De gebruiker kan op sommige elementen klikken om te navigeren door de site. Bijvoorbeeld de afbeeldingen op de overzichtspagina. Dit is gedaan met een eventlistener: 
 
 document.getElementById("sectie").addEventListener("click", function () {
     window.location.href = "../filmPagina/evilDead.html";
 });
 
-### data ophalen uit .json en weergeven in de pagia
+### Data ophalen uit .json en weergeven in de pagia
 
 1 Als eerste wordt de URL van de .json gedefinieerd.
+
 2 Er word een request gedaan. Daar volgt een response uit. Dit is de .json data.
+
 3 Een functie wordt aangeroepen, jsonobject wordt meegeven als argument.
+
 4 D.m.v. een loop krijgt elke film op de overzichtspagina:
+
   een <article> voor de img + informatie
   een <div> voor de informatie
   een <h2> voor de title
   een <p> voor de tekst
   een <img> voor de cover
   een <p> voor de release date
+    
 5 HTML elementen worden aagemaakt met document.createElement
-6 .json data wordt gekoppeld aan html elementen. Bijv: myGenres.textContent = movies[i].genres;
+
+6 .json data wordt gekoppeld aan html elementen. Bijv: myGenres.textContent = movies[i].genres; .
+
 7 Append de html elementen aan het article element.
-8 append het article aan de section die al bestaat in je html
+
+8 append het article aan de section die al bestaat in je html.
 
 
 Voor meer details over elke funcionaliteit raad ik aan een kijkje te nemen in mijn javascript bestanden. Daar leg ik uit wat de code precies doet.
 
-De .json word opgehaald van 
+De .json word opgehaald van (https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json)
 
 
 
